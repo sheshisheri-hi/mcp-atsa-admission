@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-atsa-admission"
+version = "0.1.0"
+description = "Thin host-side ATSA gate: verify a signed clearance before MCP tool dispatch, then authorize tools from a per-server allow-list."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Sheshi Sheri" }]
+keywords = ["mcp", "security", "atsa", "sep-2809", "admission", "attestation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "cryptography==41.0.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5"]
+
+[project.scripts]
+mcp-atsa-admission = "mcp_atsa_admission.cli:main"
+
+[project.urls]
+Repository = "https://github.com/sheshisheri-hi/mcp-atsa-admission"
+SEP = "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2809"
+ACLE = "https://arxiv.org/abs/2609.02690"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]

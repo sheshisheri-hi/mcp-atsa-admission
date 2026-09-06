@@ -1,0 +1,14 @@
+{
+  "typ": "mcp-clearance",
+  "v": 1,
+  "id": "clr-weather-2026",
+  "server_id": "weather.internal",
+  "issuer": "corp-trust-root",
+  "issued_at": "2026-01-15T00:00:00Z",
+  "not_before": "2026-01-15T00:00:00Z",
+  "not_after": "2027-12-31T23:59:59Z",
+  "sensitivity": "internal",
+  "well_known": "https://weather.internal/.well-known/mcp-clearance",
+  "signer_key_id": "corp-trust-root-ed25519-1",
+  "signature": "fGAU6WMdI6ClBnVAoGLxvVOzX0u77MmNg2tQswXiUlaCoV3vtKdtwikiHXVJQT_Txal_lwVfyRPwYxhpI5tODw"
+}

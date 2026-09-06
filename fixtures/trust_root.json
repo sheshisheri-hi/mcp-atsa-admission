@@ -1,0 +1,10 @@
+{
+  "id": "corp-trust-root",
+  "keys": [
+    {
+      "kid": "corp-trust-root-ed25519-1",
+      "alg": "Ed25519",
+      "public_key": "TacR8cOG5r3zdbdHv_sk18ut5kDyRee_mXhKcRdWTrk"
+    }
+  ]
+}

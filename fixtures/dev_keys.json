@@ -1,0 +1,7 @@
+{
+  "_comment": "Sample keys for regenerating fixtures. Not production secrets.",
+  "corp_private": "i8MyLU7jKM0O0lZlfMcihUkgcj6McTcNzOwGkk01kDA",
+  "corp_public": "TacR8cOG5r3zdbdHv_sk18ut5kDyRee_mXhKcRdWTrk",
+  "evil_private": "oa8HWobBK71QdLj3ij4ZnVu7DtwSSikIoUKT3pqWshk",
+  "evil_public": "LFNZclUqZS2235_w1ZBFt__hFBSaDbklw3LA4Wd2_Yw"
+}

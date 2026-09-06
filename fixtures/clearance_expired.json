@@ -1,0 +1,14 @@
+{
+  "typ": "mcp-clearance",
+  "v": 1,
+  "id": "clr-weather-expired",
+  "server_id": "weather.internal",
+  "issuer": "corp-trust-root",
+  "issued_at": "2024-01-01T00:00:00Z",
+  "not_before": "2024-01-01T00:00:00Z",
+  "not_after": "2025-01-01T00:00:00Z",
+  "sensitivity": "internal",
+  "well_known": "https://weather.internal/.well-known/mcp-clearance",
+  "signer_key_id": "corp-trust-root-ed25519-1",
+  "signature": "_gANjjUEQ74XRixaUk7azrDZXTAAx72f3n7Vyo7aa3eyswVmvNhhoffNEucUrvgRjr5_dddlv3Teyhr1pConCA"
+}

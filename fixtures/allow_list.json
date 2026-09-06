@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "weather.internal": [
+      "get_forecast",
+      "get_alerts"
+    ]
+  }
+}

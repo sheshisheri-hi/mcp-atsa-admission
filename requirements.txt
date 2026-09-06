@@ -1,0 +1,3 @@
+# Runtime: Ed25519 via cryptography. Pin the test runner so CI and local match.
+cryptography==41.0.7
+pytest==8.3.5
