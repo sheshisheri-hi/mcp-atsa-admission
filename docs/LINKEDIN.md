@@ -2,8 +2,8 @@
 
 Quick links for posting:
 
-- **Flashy HTML (this repo):** [`docs/one-pager.html`](one-pager.html)
-- **Public deck:** a coordinator may later publish `mcp-atsa-admission-deck`. Until then, screenshot the HTML above.
+- **Flashy HTML (public):** https://cdn.jsdelivr.net/gh/sheshisheri-hi/mcp-atsa-admission-deck@main/index.html
+- **Same file in private repo:** [`docs/one-pager.html`](one-pager.html)
 - **Engineer notes:** [`docs/LINKEDIN-NOTES.md`](LINKEDIN-NOTES.md)
 
 ---
@@ -48,6 +48,8 @@ ATSA = draft SEP, not shipped.
 ACLE = research paper, not an official MCP standard.
 
 Weekend sample. Private repo. Tests green.
+
+One-pager: https://cdn.jsdelivr.net/gh/sheshisheri-hi/mcp-atsa-admission-deck@main/index.html
 
 If you run MCP at work and you only check TLS + OAuth, you never asked the door question.
 
