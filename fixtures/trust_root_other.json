@@ -1,0 +1,10 @@
+{
+  "id": "other-trust-root",
+  "keys": [
+    {
+      "kid": "other-trust-root-ed25519-1",
+      "alg": "Ed25519",
+      "public_key": "LFNZclUqZS2235_w1ZBFt__hFBSaDbklw3LA4Wd2_Yw"
+    }
+  ]
+}
